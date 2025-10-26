@@ -30,9 +30,9 @@ def show():
         status_text.markdown("<p style='text-align: center; font-size: 22px; color: #ff9a9e;'>Pflanze Samen...</p>", unsafe_allow_html=True)
         progress_bar.progress(50, text="🌱 Samen pflanzen...")
         time.sleep(3)
-        
-        # Step 4: Bewässer die Blumen
-        status_text.markdown("<p style='text-align: center; font-size: 22px; color: #ff9a9e;'>Bewässer nun die Blumen..</p>", unsafe_allow_html=True)
+
+        # Step 4: Bewässere die Blumen
+        status_text.markdown("<p style='text-align: center; font-size: 22px; color: #ff9a9e;'>Bewässere nun die Blumen..</p>", unsafe_allow_html=True)
         progress_bar.progress(66, text="💧 Blumen gießen...")
         # Show gardening gif
         gardening_gif_path = "./cat_gifs/gardening_flowers.gif"
@@ -72,5 +72,5 @@ def show():
         except FileNotFoundError:
             gif_placeholder.warning(f"GIF not found at: {flower_gif_path}")
 
-    st.markdown("<p style='text-align: center; font-size: 24px; color: #ff9a9e;'>Danke, dass du mich auf ein Date eingeladen hast! 💖</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: center; font-size: 24px; color: #ff9a9e;'>Freue mich auf unser Date 💖</p>", unsafe_allow_html=True)
 

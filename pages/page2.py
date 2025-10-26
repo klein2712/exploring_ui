@@ -51,7 +51,7 @@ def show():
         answer = "Gute Wahl, bei der Kälte genau das richtige.. am besten noch mit Tee und Snacks 🍵"
         st.markdown(f"<div style='text-align: center; font-size: 22px; color: #888;'>{answer}</div>", unsafe_allow_html=True)
         st.markdown("---")
-        st.markdown(f"<div style='text-align: center; font-size: 22px; color: #888;'>Schöne Idee! Mach am besten davon ein Screenshot und schicks mir, ich hab leider kein Plan wie ich die das was du eingegeben hast sonst sehen kann haha</div>", unsafe_allow_html=True)
+        st.markdown(f"<div style='text-align: center; font-size: 22px; color: #888;'>Schöne Idee! Mach am besten davon ein Screenshot und schicks mir, ich kann nämlich nicht sehen, was du hier auf der Seite eingegeben hast haha</div>", unsafe_allow_html=True)
         st.markdown("---")
         st.markdown(f"<div style='text-align: center; font-size: 22px; color: #888;'>Bonus: Wenn du Blumen möchtest, dann klick hier!</div>", unsafe_allow_html=True)
         if st.button("🌸 Blumen für dich 🌸", key="filmabend_flowers_btn", use_container_width=True):
@@ -65,7 +65,7 @@ def show():
         if user_input:
             st.markdown(f"<div style='text-align: center; font-size: 20px; color: #ff9a9e;'>Aha <b>{user_input}</b> also, nicht schlecht </div>", unsafe_allow_html=True)
             st.markdown("---")
-            st.markdown(f"<div style='text-align: center; font-size: 22px; color: #888;'>Schöne Idee! Mach am besten davon ein Screenshot und schicks mir, ich hab leider kein Plan wie ich die das was du eingegeben hast sonst sehen kann haha</div>", unsafe_allow_html=True)
+            st.markdown(f"<div style='text-align: center; font-size: 22px; color: #888;'>Schöne Idee! Mach am besten davon ein Screenshot und schicks mir, ich kann nämlich nicht sehen, was du hier auf der Seite eingegeben hast haha</div>", unsafe_allow_html=True)
             st.markdown("---")
             st.markdown(f"<div style='text-align: center; font-size: 22px; color: #888;'>Bonus: Wenn du Blumen möchtest, dann klick hier!</div>", unsafe_allow_html=True)
             if st.button("🌸 Blumen für dich 🌸", key="trip_flowers_btn", use_container_width=True):
@@ -76,7 +76,7 @@ def show():
         answer = "Klingt gut, dann kannst du mir was über Kunst beibringen haha"
         st.markdown(f"<div style='text-align: center; font-size: 22px; color: #888;'>{answer}</div>", unsafe_allow_html=True)
         st.markdown("---")
-        st.markdown(f"<div style='text-align: center; font-size: 22px; color: #888;'>Schöne Idee! Mach am besten davon ein Screenshot und schicks mir, ich hab leider kein Plan wie ich die das was du eingegeben hast sonst sehen kann haha</div>", unsafe_allow_html=True)
+        st.markdown(f"<div style='text-align: center; font-size: 22px; color: #888;'>Schöne Idee! Mach am besten davon ein Screenshot und schicks mir, ich kann nämlich nicht sehen, was du hier auf der Seite eingegeben hast haha</div>", unsafe_allow_html=True)
         st.markdown("---")
         st.markdown(f"<div style='text-align: center; font-size: 22px; color: #888;'>Bonus: Wenn du Blumen möchtest, dann klick hier!</div>", unsafe_allow_html=True)
         if st.button("🌸 Blumen für dich 🌸", key="museum_flowers_btn", use_container_width=True):
